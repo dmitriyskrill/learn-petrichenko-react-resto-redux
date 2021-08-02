@@ -13,6 +13,7 @@
     "redux": "^4.0.1"
   },
   "scripts": {
+    "server": "json-server --watch src/db.json --port 3003",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
